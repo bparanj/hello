@@ -1,4 +1,5 @@
 Hello::Application.routes.draw do
+  root :to => proc { |env| [200, {}, ["OK"]] }
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
