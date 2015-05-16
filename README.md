@@ -15,9 +15,8 @@ $ docker run --rm -p 3000:3000 bleacher/hello
 ### Tests
 
 <pre>
-$ ruby hello_test.rb
+$ docker run --rm bleacher/hello rake
 </pre>
-
 
 ## Bare metal
 
