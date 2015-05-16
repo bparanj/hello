@@ -13,7 +13,5 @@ RUN bundle install
 COPY . $APP_HOME
 
 # Start server
-COPY config/container/start.sh /usr/bin/start
-RUN chmod +x /usr/bin/start
 EXPOSE 3000
-CMD ["/usr/bin/start"]
+CMD ["ruby", "hello.rb"]
