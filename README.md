@@ -9,7 +9,7 @@ $ docker build -t bleacher/hello .
 ### Start app
 
 <pre>
-$ docker run -P bleacher/hello
+$ docker run --rm -p 3000:3000 bleacher/hello
 </pre>
 
 ### Tests
