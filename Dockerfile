@@ -1,5 +1,5 @@
-FROM ruby:2.2.1
-MAINTAINER Tung Nguyen <tnguyen@bleacherreport.com>
+FROM ruby:2.2.2
+MAINTAINER Bala Paranj <bparanj@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y net-tools
