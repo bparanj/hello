@@ -3,19 +3,19 @@
 ### Setup app
 
 <pre>
-$ docker build -t bleacher/hello .
+$ docker build -t bparanj/hello .
 </pre>
 
 ### Start app
 
 <pre>
-$ docker run --rm -p 3000:3000 bleacher/hello
+$ docker run --rm -p 3000:3000 bparanj/hello
 </pre>
 
 ### Tests
 
 <pre>
-$ docker run --rm bleacher/hello rake
+$ docker run --rm bparanj/hello rake
 </pre>
 
 ## Bare metal
