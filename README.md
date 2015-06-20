@@ -77,3 +77,4 @@ ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-linux]
 root@0503074f21c9:/app# 
 </pre>
 
+If you change your code. You can rebuild the image using the same command and when you run the container the changes will be reflected.
