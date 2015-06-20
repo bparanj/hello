@@ -12,6 +12,14 @@ $ docker build -t bparanj/hello .
 $ docker run --rm -p 3000:3000 bparanj/hello
 </pre>
 
+### Mac OS Specific Step 
+
+<pre>
+$ boot2docker ip
+</pre>
+
+Use the ip from the above command to view the application: http://192.168.59.103:3000/
+
 ### Tests
 
 <pre>

@@ -1,3 +1,0 @@
-script: 
-  - sudo docker run --rm ubuntu echo "hello world" 
-  - true
